@@ -1,0 +1,31 @@
+# Submission docs (kept out of the repo on purpose)
+README_PROJECT.md
+problem.md
+idea.md
+frontend_mockup/
+*.csv
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Node / Vite
+node_modules/
+dist/
+*.local
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
