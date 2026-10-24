@@ -1,0 +1,5 @@
+# Terminates HTTPS (certificates from Let's Encrypt) and forwards everything to the frontend's nginx.
+{$DOMAIN} {
+	encode gzip
+	reverse_proxy frontend:80
+}
